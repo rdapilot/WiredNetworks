@@ -1,0 +1,12 @@
+ESTABLISHING A CONNECTION
+enable
+configure terminal
+interface g?/?/?
+no shut
+
+
+CREATING A DHCP POOL
+configure terminal
+ip dhcp pool poolname
+
+network <network ip> <subnetmask>
